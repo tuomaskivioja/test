@@ -18,8 +18,10 @@ currency_codes = {
     'CHF': 'CHF'
 }
 
+print("hello")
 
-for country in countries:
+
+for country in countries: 
     # Send GET request
     res = requests.get(f'https://www.levels.fyi/t/software-engineer/locations/{country}')
 
